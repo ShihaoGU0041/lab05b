@@ -16,3 +16,9 @@ print(name.title())
 response = input("Continue? (Y/N): ")
 going = response.upper() == "Y"
 print(going)
+
+
+x = 3
+while x <= 9:
+    print(x)
+    x += 2
